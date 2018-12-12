@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* CSS Document */
+/*Home Page styles*/
+h1 a {
+	color:darkcyan;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 50px; 
+	font-weight:400;
+	font-display:auto;
+	margin-bottom: auto;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+}
+
+
+#one { display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding: 16px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    font-weight: 60;
+    font-size: 23px;
+    text-align: center;
+	color:gray;
+	margin-bottom:auto;
+	margin-top:inherit;
+	
+}
+
+
+/*List Style*/
+ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0; }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:darkgrey; }
+
+ul {font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";	
+	font-size: 18px;
+	font-weight: 2000; }
+li {
+    float: left;}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none; }
+
+li a:hover {
+    background-color: grey; }
+
+/*Image Style*/
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right:auto;
+  	width: 45%;
+}
+
+/*Caption Style*/
+figure { 
+	display:inline-block;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	float: inherit;
+	align-content: center; 
+	color: darkgray;
+	text-align: center;
+} 
+
+/*About page styles*/
+h2 {
+	color:darkcyan;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size:28px; 
+	font-weight:500;
+	font-display:block;
+	margin-bottom: auto;
+	text-align:center;
+}
+
+u { font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 25px;
+	font-weight: 300;
+	display:block;
+	color: gray;
+	text-align:center;
+	
+}
+pre {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 20px;
+	font-weight: 300;
+	display:block;
+	color: gray;
+	text-align:center;
+}
+
+p {font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 20px;
+	font-weight: 3000;
+	display:block;
+	color: gray;
+	text-align:left;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 40px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.8;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+	background:#275A7B;
+	color:white;	
+}
+
+/*Portfolio style page*/
+
+h4 {
+color:darkcyan;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 35px; 
+	font-weight:400;
+	font-display:auto;
+	margin: auto;
+	text-align: center;
+	text-decoration: none;
+	display:block;	
+}
+
+figcaption{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	float:inherit;
+	color: darkgray;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float:left;
+  width:45%;
+  padding: 15px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content:"";
+  clear:none;
+  display:block;
+	margin-bottom: auto;
+} 
+
+.column img {
+	vertical-align: middle;
+	margin-top:8px;
+}
+
+#countries
+{	color:dimgray;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 28px; 
+	font-weight:20;
+	font-display:auto;
+	margin: auto;
+	text-align: left;
+	text-decoration:underline;
+	display:inline-block;} 
